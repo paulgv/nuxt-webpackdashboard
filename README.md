@@ -60,7 +60,8 @@ yarn add nuxt-webpackdashboard -D
 
 Or by adding a `webpackDashboard` key:
 
-```js {
+```js
+{
   webpackDashboard: {
     port: 3001,
   },
