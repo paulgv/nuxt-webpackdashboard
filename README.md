@@ -14,7 +14,8 @@ yarn add nuxt-webpackdashboard -D
 ## Setup
 
 - Add `nuxt-webpackdashboard` to `nuxt.config.js`:
- ```js
+
+```js
 {
   modules: [
     'nuxt-webpackdashboard',
