@@ -1,6 +1,6 @@
 # Webpack Dashboard Module
 
-> [Webpack Dashboard](https://github.com/FormidableLabs/webpack-dashboard) integration for Nuxt
+> [Webpack Dashboard](https://github.com/FormidableLabs/webpack-dashboard) integration for [Nuxt](https://github.com/nuxt/nuxt.js)
 
 ## Install
 
