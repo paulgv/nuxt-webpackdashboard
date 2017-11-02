@@ -16,6 +16,8 @@ yarn add nuxt-webpackdashboard -D
 - Add `nuxt-webpackdashboard` to `nuxt.config.js`:
 
 ```js
+// nuxt.config.js
+
 {
   modules: [
     'nuxt-webpackdashboard',
@@ -49,6 +51,8 @@ yarn add nuxt-webpackdashboard -D
 [Webpack plugin options](https://github.com/FormidableLabs/webpack-dashboard#webpack-plugin) can be passed to Webpack Dashboard in Nuxt config's modules sections:
 
 ```js
+// nuxt.config.js
+
 {
   modules: [
     ['webpackdashboard-module', {
@@ -61,6 +65,8 @@ yarn add nuxt-webpackdashboard -D
 Or by adding a `webpackDashboard` key:
 
 ```js
+// nuxt.config.js
+
 {
   webpackDashboard: {
     port: 3001,
