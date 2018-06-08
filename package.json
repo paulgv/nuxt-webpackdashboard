@@ -1,6 +1,6 @@
 {
   "name": "nuxt-webpackdashboard",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "description": "Webpack Dashboard integration for Nuxt",
   "main": "lib/module.js",
   "repository": "https://github.com/paulgv/nuxt-webpackdashboard.git",
