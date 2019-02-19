@@ -79,10 +79,6 @@ better-assert@~1.0.0:
   dependencies:
     callsite "1.0.0"
 
-blessed@^0.1.81:
-  version "0.1.81"
-  resolved "https://registry.yarnpkg.com/blessed/-/blessed-0.1.81.tgz#f962d687ec2c369570ae71af843256e6d0ca1129"
-
 blob@0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/blob/-/blob-0.0.4.tgz#bcf13052ca54463f30f9fc7e95b9a47630a94921"
@@ -295,14 +291,15 @@ indexof@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/indexof/-/indexof-0.0.1.tgz#82dc336d232b9062179d05ab3293a66059fd435d"
 
-inspectpack@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/inspectpack/-/inspectpack-3.0.1.tgz#676134e139aef14de5c0d1d8ab482ba629ecef28"
+inspectpack@^4.0.0:
+  version "4.1.2"
+  resolved "https://registry.yarnpkg.com/inspectpack/-/inspectpack-4.1.2.tgz#b07dd10f1131c290d2076270470787d61b47097e"
   dependencies:
     chalk "^2.4.0"
     io-ts "^1.0.5"
     io-ts-reporters "^0.0.20"
     pify "^3.0.0"
+    semver-compare "^1.0.0"
     yargs "^11.0.0"
 
 invert-kv@^1.0.0:
@@ -422,6 +419,10 @@ negotiator@0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/negotiator/-/negotiator-0.6.1.tgz#2b327184e8992101177b28563fb5e7102acd0ca9"
 
+neo-blessed@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/neo-blessed/-/neo-blessed-0.2.0.tgz#30f9495fdd104494402b62c6273a9c9b82de4f2b"
+
 nice-try@^1.0.4:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/nice-try/-/nice-try-1.0.4.tgz#d93962f6c52f2c1558c0fbda6d512819f1efe1c4"
@@ -524,6 +525,10 @@ right-align@^0.1.1:
 safe-buffer@~5.1.0:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
+
+semver-compare@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/semver-compare/-/semver-compare-1.0.0.tgz#0dee216a1c941ab37e9efb1788f6afc5ff5537fc"
 
 semver@^5.5.0:
   version "5.5.0"
@@ -661,17 +666,17 @@ ultron@~1.1.0:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
 
-webpack-dashboard@^2.0.0:
-  version "2.0.0"
-  resolved "https://registry.yarnpkg.com/webpack-dashboard/-/webpack-dashboard-2.0.0.tgz#70db22e7bb5b12b4a7fde82de87ce01eed8d921c"
+webpack-dashboard@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/webpack-dashboard/-/webpack-dashboard-3.0.0.tgz#14b2374841efd9b28d0368f07a38bc1af43970e1"
   dependencies:
-    blessed "^0.1.81"
     commander "^2.15.1"
     cross-spawn "^6.0.5"
     filesize "^3.6.1"
     handlebars "^4.0.11"
-    inspectpack "^3.0.1"
+    inspectpack "^4.0.0"
     most "^1.7.3"
+    neo-blessed "^0.2.0"
     socket.io "^2.1.1"
     socket.io-client "^2.1.1"
 
