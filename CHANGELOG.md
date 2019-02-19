@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="2.0.0"></a>
+# [2.0.0](https://github.com/paulgv/nuxt-webpackdashboard/compare/v1.0.0...v2.0.0) (2019-02-19)
+
+
+### Features
+
+* **deps:** update dependency webpack-dashboard to v3 ([#4](https://github.com/paulgv/nuxt-webpackdashboard/issues/4)) ([87327ca](https://github.com/paulgv/nuxt-webpackdashboard/commit/87327ca))
+
+
+### BREAKING CHANGES
+
+* **deps:** Drops support for Node 6, more info here: https://github.com/FormidableLabs/webpack-dashboard/releases/tag/3.0.0
+
+
+
 <a name="1.0.0"></a>
 # 1.0.0 (2018-06-08)
 
