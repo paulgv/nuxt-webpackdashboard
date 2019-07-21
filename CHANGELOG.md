@@ -2,6 +2,15 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.0.1](https://github.com/paulgv/nuxt-webpackdashboard/compare/v2.0.0...v2.0.1) (2019-07-21)
+
+
+### Bug Fixes
+
+* **deps:** Upgrade dependencies ([1b22e3b](https://github.com/paulgv/nuxt-webpackdashboard/commit/1b22e3b))
+
+
+
 <a name="2.0.0"></a>
 # [2.0.0](https://github.com/paulgv/nuxt-webpackdashboard/compare/v1.0.0...v2.0.0) (2019-02-19)
 
